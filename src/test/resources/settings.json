@@ -1,0 +1,140 @@
+{
+    "browserName": "chrome",
+    "driverSettings": {
+        "chrome": {
+            "capabilities": {
+                
+            },
+            "loggingPreferences": {
+                "Performance": "All"
+            },
+            "options": {
+                "disable-popup-blocking": "true",
+                "download.default_directory": "./downloads",
+                "download.prompt_for_download": "false",
+                "intl.accept_languages": "en",
+                "profile.default_content_settings.popups": "0",
+                "safebrowsing.enabled": "true"
+            },
+            "pageLoadStrategy": "Normal",
+            "startArguments": [
+                "--remote-allow-origins=*"
+            ],
+            "webDriverVersion": "latest"
+        },
+        "edge": {
+            "capabilities": {
+                
+            },
+            "loggingPreferences": {
+                "Performance": "All"
+            },
+            "options": {
+                "disable-popup-blocking": "true",
+                "download.default_directory": "./downloads",
+                "download.prompt_for_download": "false",
+                "intl.accept_languages": "en",
+                "profile.default_content_settings.popups": "0",
+                "safebrowsing.enabled": "true"
+            },
+            "startArguments": [
+                
+            ],
+            "webDriverVersion": "latest"
+        },
+        "firefox": {
+            "capabilities": {
+                
+            },
+            "options": {
+                "browser.download.dir": "./downloads",
+                "browser.download.folderList": 2,
+                "browser.download.manager.alertOnEXEOpen": false,
+                "browser.download.manager.closeWhenDone": true,
+                "browser.download.manager.focusWhenStarting": false,
+                "browser.download.manager.showAlertOnComplete": false,
+                "browser.download.manager.showWhenStarting": false,
+                "browser.download.manager.useWindow": false,
+                "browser.download.panel.shown": false,
+                "browser.download.useDownloadDir": true,
+                "browser.helperApps.alwaysAsk.force": false,
+                "browser.helperApps.neverAsk.saveToDisk": "application/octet-stream, application/x-debian-package, application/x-www-form-urlencod, application/json, application/x-compressed, application/x-zip-compressed, application/zip, multipart/x-zip, text/plain, text/csv",
+                "intl.accept_languages": "en"
+            },
+            "startArguments": [
+                
+            ],
+            "webDriverVersion": "latest"
+        },
+        "iexplorer": {
+            "capabilities": {
+                "ignoreProtectedModeSettings": true
+            },
+            "systemArchitecture": "X32",
+            "webDriverVersion": "latest"
+        },
+        "opera": {
+            "binaryLocation": "%USERPROFILE%\\AppData\\Local\\Programs\\Opera\\launcher.exe",
+            "capabilities": {
+                
+            },
+            "options": {
+                "disable-popup-blocking": "true",
+                "download.default_directory": "./downloads",
+                "download.prompt_for_download": "false",
+                "intl.accept_languages": "en",
+                "profile.default_content_settings.popups": "0",
+                "safebrowsing.enabled": "true"
+            },
+            "startArguments": [
+                "--remote-debugging-port=9222",
+                "--no-sandbox",
+                "--disable-dev-shm-usage"
+            ],
+            "webDriverVersion": "latest"
+        },
+        "safari": {
+            "downloadDir": "/Users/username/Downloads"
+        },
+        "yandex": {
+            "binaryLocation": "%USERPROFILE%\\AppData\\Local\\Yandex\\YandexBrowser\\Application\\browser.exe",
+            "capabilities": {
+                
+            },
+            "options": {
+                "disable-popup-blocking": "true",
+                "download.default_directory": "./downloads",
+                "download.prompt_for_download": "false",
+                "intl.accept_languages": "en",
+                "profile.default_content_settings.popups": "0",
+                "safebrowsing.enabled": "true"
+            },
+            "startArguments": [
+                
+            ],
+            "webDriverVersion": "102.0.5005.61"
+        }
+    },
+    "elementCache": {
+        "isEnabled": false
+    },
+    "isElementHighlightEnabled": true,
+    "isRemote": false,
+    "logger": {
+        "language": "en",
+        "logPageSource": true
+    },
+    "remoteConnectionUrl": "http://localhost:4444/wd/hub",
+    "retry": {
+        "number": 2,
+        "pollingInterval": 300
+    },
+    "timeouts": {
+        "timeoutCommand": 120,
+        "timeoutCondition": 30,
+        "timeoutImplicit": 0,
+        "timeoutPageLoad": 15,
+        "timeoutPollingInterval": 300,
+        "timeoutScript": 10
+    }
+}

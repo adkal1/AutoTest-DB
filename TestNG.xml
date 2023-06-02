@@ -1,0 +1,13 @@
+
+<suite name="TestSuite">
+    <test name="UITest">
+        <classes>
+            <class name="UITest">
+                <methods>
+                    <include name="helpForm" />
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+</suite>

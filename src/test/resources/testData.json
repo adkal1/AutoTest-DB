@@ -1,0 +1,9 @@
+{
+  "url": "https://userinyerface.com/",
+  "numberOfInterests": "3",
+  "timerStart": "00:00:00",
+  "timeDelay": 1000,
+  "urlMySql": "jdbc:mysql://localhost:3306/union_reporting?useSSL=false&serverTimezone=Asia/Almaty",
+  "username": "root",
+  "password": "Astrakhan5739986+"
+}
